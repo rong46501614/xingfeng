@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page language="java" import="java.util.*;import com.xingfeng.form.XftxThemeForm;" pageEncoding="UTF-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -16,7 +16,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="${pageContext.request.contextPath}/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <script src="${pageContext.request.contextPath}/js/jquery-1.11.1.min.js"></script>
 <link href="${pageContext.request.contextPath}/css/newstyle.css" rel='stylesheet' type='text/css' />
-<link rel="${pageContext.request.contextPath}/shortcut icon" href="images/logo.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/images/logo.ico" type="image/x-icon" />
 <script src="${pageContext.request.contextPath}/js/jquery.easydropdown.js"></script>
 <link href="${pageContext.request.contextPath}/css/nav.css" rel="stylesheet" type="text/css" media="all"/>
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/move-top.js"></script>
@@ -36,10 +36,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	function change(){
 	    var lipath = "";
 	    switch(i){
-	    	case 0: lipath = "${pageContext.request.contextPath}/images/banner.jpg";break;    //图片位置
-	        case 1: lipath = "${pageContext.request.contextPath}/images/banner2.jpg";break;
-	        case 2: lipath = "${pageContext.request.contextPath}/images/banner1.jpg";break;
-	        case 3: lipath = "${pageContext.request.contextPath}/images/banner3.jpg";break;
+	    	case 0: lipath = "images/banner.jpg";break;    //图片位置
+	        case 1: lipath = "images/banner2.jpg";break;
+	        case 2: lipath = "images/banner1.jpg";break;
+	        case 3: lipath = "images/banner3.jpg";break;
 		}
 	    
 	    document.getElementById("banner").style.backgroundImage = "URL("+lipath+")";  //显示对应的图片
@@ -55,7 +55,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="header">
 	<div class="container">
 		<div class="logo">
-			<a href="${pageContext.request.contextPath}/xftxThemeAction_formainjsp.do"><img src="${pageContext.request.contextPath}/images/logos.png"  alt=""></a>
+			<a href="${pageContext.request.contextPath}/xftxThemeAction_formainjsp.do"><img src="images/logos.png"  alt=""></a>
 		</div>
 		<div class="search-bar">
 			<input type="text"  value="Search" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Search';}">
@@ -69,6 +69,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<li class="dropdown1"><a class="down-scroll" href="">projitem</a>
 											<ul class="dropdown2">
 												
+									    		<%
+									    			if(request.getAttribute("al")!=null&&((ArrayList)(request.getAttribute("al"))).size()>0){
+									    				for(int i=0;i<((ArrayList)(request.getAttribute("al"))).size();i++){
+									    					%>
+									    					<li><a href="${pageContext.request.contextPath}/xftxMountainsAction_mountainsWater.do?flag=<%=((XftxThemeForm)(((ArrayList)(request.getAttribute("al"))).get(i))).getThemeId() %>"><%=((XftxThemeForm)(((ArrayList)(request.getAttribute("al"))).get(i))).getThemeName() %></a></li>
+									    					<%
+									    				}
+									    			}
+									    		 %>
 											</ul>
 										</li>     
 										<li class="dropdown1"><a href="">BaiduImg</a>
@@ -92,10 +101,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<li class="dropdown1"><a href="">user</a>
 											<ul class="dropdown2">
 												<li>
-												
+												<s:if test="%{#session.xftxUser.userlogin!=null}">
+										    		<a href="${pageContext.request.contextPath}/xftxUserAction_user.do"><s:property value='%{#session.xftxUser.userlogin}'/></a>
+									    		</s:if>
+									    		<s:else>
+										    		<a href="${pageContext.request.contextPath}/xftxUserAction_login.do">登录/Login</a>
+									    		</s:else>
 												</li>
 												<li>
-												
+												<s:if test="%{#session.xftxUser.userlogin!=null}">
+										    		<a href="${pageContext.request.contextPath}/xftxUserAction_nologin.do">注销/Logout</a>
+									    		</s:if>
+									    		<s:else>
+										    		<a href="${pageContext.request.contextPath}/xftxUserAction_register.do">注册/Register</a>
+									    		</s:else>
 												</li>
 											</ul>
 										</li>  
@@ -139,7 +158,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<h1 class="heading">Most Popular Plans</h1>
 
 
-			
+			<%int i=0; %>
+			<s:if test="%{#request.listXftxItemForm!=null && #request.listXftxItemForm.size()>0}">
+				<s:iterator value="%{#request.listXftxItemForm}" var="xftxItemForm">
+					<%if(i%3==2){%><div class="col-md-4 one_third last pricing"><%}else{%><div class="col-md-4 one_third pricing"><%} i++;%>
+						<div class="pricing_top">
+							<h6><s:property value='%{#xftxItemForm.itemBuildTime}'/></h6>
+							<p><sup></sup><s:property value='%{#xftxItemForm.itemName}'/></p>
+						</div>
+						<div class="pricing_middle">
+							<img src="<s:property value='%{#xftxItemForm.itemImgPath}'/>" style="width:100%"/>
+						</div>
+						<div class="pricing_bottom">
+							<a href="${pageContext.request.contextPath}/xftxMountainsAction_item.do?itemId=<s:property value='%{#xftxItemForm.itemId}'/>">详情/details</a>
+						</div>
+					</div>
+				</s:iterator>
+			</s:if>
+
+
+
+
+
+
+
+
+
 
 
 			
