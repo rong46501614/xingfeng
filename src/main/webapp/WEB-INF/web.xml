@@ -57,19 +57,19 @@
 	</context-param>
     
     
-    <servlet>
-	  <servlet-name>Restlet</servlet-name>
-	  <servlet-class>org.restlet.ext.spring.SpringServerServlet</servlet-class>
-	  <init-param>
-	    <param-name>org.restlet.component</param-name>
-	    <param-value>RestletComponent</param-value>
-	  </init-param>
-	</servlet>
-	 
-	<servlet-mapping>
-	  <servlet-name>Restlet</servlet-name>
-	  <url-pattern>/rest/*</url-pattern>
-	</servlet-mapping>
+   <servlet>  
+<servlet-name>restlet</servlet-name>  
+<servlet-class>com.noelios.restlet.ext.spring.SpringServerServlet</servlet-class>  
+<init-param>  
+    <param-name>org.restlet.component</param-name>  
+    <param-value>component</param-value>  
+</init-param>  
+</servlet>  
+   
+ <servlet-mapping>  
+<servlet-name>restlet</servlet-name>  
+<url-pattern>/resources/*</url-pattern>  
+ </servlet-mapping>
     
     
     
