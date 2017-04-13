@@ -43,7 +43,8 @@ http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
 			<value>4096</value>
 		</property>
 	</bean>
-	 <mvc:annotation-driven />
+	
+	<mvc:annotation-driven />
 	<mvc:default-servlet-handler />
 	<mvc:resources mapping="/js/**" location="/js/" /> 
 	<mvc:resources mapping="/images/**" location="/images/" /> 

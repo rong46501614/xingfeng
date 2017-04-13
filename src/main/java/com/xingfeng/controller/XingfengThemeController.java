@@ -31,7 +31,7 @@ public class XingfengThemeController {
 			xftxThemeForm=list.get(i);
 			al.add(xftxThemeForm);
 		}
-		request.getSession().setAttribute("al", al);
+		request.setAttribute("al", al);
 		List<XftxItemForm> listXftxItemForm=iXftxItemService.findXftxItemByTime();
 		request.setAttribute("listXftxItemForm", listXftxItemForm);
 		return "newmain";
