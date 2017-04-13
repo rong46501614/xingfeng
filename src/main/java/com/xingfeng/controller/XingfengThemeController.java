@@ -12,7 +12,7 @@ import com.xingfeng.form.XftxThemeForm;
 import com.xingfeng.service.IXftxItemService;
 import com.xingfeng.service.IXftxThemeService;
 import javax.servlet.http.HttpServletRequest;;
-@Controller
+
 @RequestMapping("/init")
 public class XingfengThemeController {
 	

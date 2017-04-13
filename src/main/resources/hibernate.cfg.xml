@@ -25,7 +25,7 @@
 		<property name="cache.use_second_level_cache">true</property> -->
 		<!-- 指定使用哪种二级缓存 
 		<property name="cache.provider_class">org.hibernate.cache.OSCacheProvider</property>-->
-		
+		<!-- 
 		<mapping resource="com/xingfeng/domain/XftxUser.hbm.xml"/>
 		<mapping resource="com/xingfeng/domain/XftxCountry.hbm.xml"/>
 		<mapping resource="com/xingfeng/domain/XftxCity.hbm.xml"/>
@@ -34,7 +34,7 @@
 		<mapping resource="com/xingfeng/domain/XftxTheme.hbm.xml"/>
 		<mapping resource="com/xingfeng/domain/XftxItem.hbm.xml"/>
 		<mapping resource="com/xingfeng/domain/XftxProvince.hbm.xml"/>
-		<!-- 
+		
 		<class-cache class="com.xingfeng.domain.XftxCountry" usage="read-write"/>
 		 -->
 	</session-factory>

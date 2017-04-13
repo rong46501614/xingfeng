@@ -16,26 +16,25 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat6-maven-plugin</artifactId>
-				<version>2.0</version>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
 				<configuration>
 					<uriEncoding>UTF-8</uriEncoding>
 				</configuration>
 			</plugin>
 			
-			<plugin>
-			    <artifactId>maven-compiler-plugin</artifactId>
-			    <version>3.5</version>
-			    <configuration>
-			    <encoding>utf-8</encoding>
-			    <source>1.7</source>
-			    <target>1.7</target>
-			    <compilerArguments>  
-			        <verbose />  
-			        <bootclasspath>${java.home}/lib/rt.jar</bootclasspath>  
-			    </compilerArguments> 
-			    </configuration>
-			</plugin>
+			<plugin>  
+			    <groupId>org.apache.maven.plugins</groupId>  
+			    <artifactId>maven-compiler-plugin</artifactId>  
+			    <version>3.5</version>  
+			    <configuration>  
+			        <verbose>true</verbose>  
+			        <fork>true</fork>  
+			        <executable>F:/Java/jdk1.8.0_31/bin/javac</executable>  
+			    </configuration>  
+			</plugin> 
+			
+			
 		</plugins>
 	</build>
 
@@ -97,7 +96,7 @@
 		<dependency>
 			<groupId>javax.transaction</groupId>
 			<artifactId>jta</artifactId>
-			<version>1.0.1B</version>
+			<version>1.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.mchange</groupId>
@@ -109,11 +108,7 @@
 			<artifactId>spring-beans</artifactId>
 			<version>4.1.6.RELEASE</version>
 		</dependency>
-		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc7</artifactId>
-			<version>1.0</version>
-		</dependency>
+		
 
 		
 
@@ -175,8 +170,8 @@
 		<dependency>  
             <groupId>net.sf.json-lib</groupId>  
             <artifactId>json-lib</artifactId>  
-            <version>2.4</version>  
-        </dependency>  
+            <version>2.4</version>
+        </dependency>
 		<dependency>
 		    <groupId>javax.servlet</groupId>
 		    <artifactId>servlet-api</artifactId>
