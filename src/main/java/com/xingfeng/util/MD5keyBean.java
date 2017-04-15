@@ -1,4 +1,4 @@
-package com.xftx.util;
+package com.xingfeng.util;
 
 /*******************************************************************************
  * keyBean 类实现了RSA Data Security, Inc.在提交给IETF 的RFC1321中的keyBean message-digest
