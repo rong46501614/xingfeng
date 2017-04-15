@@ -1,4 +1,4 @@
-package com.xftx.util;
+package com.xingfeng.util;
 
 import java.io.File;
 import java.io.FileOutputStream;

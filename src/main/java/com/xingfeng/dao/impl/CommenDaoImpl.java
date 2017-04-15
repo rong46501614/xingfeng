@@ -16,8 +16,8 @@ import org.hibernate.SessionFactory;
 import org.springframework.orm.hibernate3.HibernateCallback;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
-import com.xftx.util.GenericSuperClass;
 import com.xingfeng.dao.ICommenDao;
+import com.xingfeng.util.GenericSuperClass;
 
 public class CommenDaoImpl<T> extends HibernateDaoSupport implements ICommenDao<T>{
 
