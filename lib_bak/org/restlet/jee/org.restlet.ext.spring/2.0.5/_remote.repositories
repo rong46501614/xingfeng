@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Apr 11 22:00:43 CST 2017
+org.restlet.ext.spring-2.0.5.pom>maven-restlet=
+org.restlet.ext.spring-2.0.5.jar>maven-restlet=

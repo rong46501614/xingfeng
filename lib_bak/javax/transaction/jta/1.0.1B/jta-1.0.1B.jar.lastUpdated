@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Apr 11 23:00:32 CST 2017
+http\://maven.restlet.org/.error=Could not transfer artifact javax.transaction\:jta\:jar\:1.0.1B from/to maven-restlet (http\://maven.restlet.org)\: connect timed out
+@default-maven-restlet-http\://maven.restlet.org/.lastUpdated=1491919241787
+https\://repo.maven.apache.org/maven2/.lastUpdated=1491922832905
+https\://repo.maven.apache.org/maven2/.error=
