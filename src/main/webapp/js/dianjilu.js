@@ -66,33 +66,11 @@
 	
 	var j=0;
 	$("#albumlistPreLi").click(function(){
-		j++;
-		if(j<4){
-			var i=0;
-			timer=setInterval(function(){
-				if($("#albumlist").css("left").split("px")[0]>-(1200*j)){
-					i++;
-					$("#albumlist").css("left","-"+ (1200*(j-1) + 10*i) +"px");
-				}else{
-					clearInterval(timer);
-				}
-			},7);
-		}
+		$("#albumlist").css("left","-1200px");
 	});
 	
 	$("#albumlistNextLi").click(function(){
-		j--;
-		if(j>-1){
-			var i=0;
-			timer=setInterval(function(){
-				if($("#albumlist").css("left").split("px")[0]<-(1200*j)){
-					i++;
-					$("#albumlist").css("left", -(1200*(j+1)-10*i) +"px");
-				}else{
-					clearInterval(timer);
-				}
-			},7);
-		}
+		
 	});
 	
 })();
