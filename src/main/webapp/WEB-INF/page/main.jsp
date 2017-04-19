@@ -22,8 +22,10 @@
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/scoll.css">
 <link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
-
+<script type="text/javascript" src="js/unslider.min.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
 </head>
 
 <body class="os_mac">
@@ -31,8 +33,7 @@
 	<div class="mod_header">
 		<div class="section_inner">
 			<h1 class="xingfeng_title">
-				<a href=""><img
-					src="images/logo.png" alt="行风天下"
+				<a href=""><img src="images/logo.png" alt="行风天下"
 					class="xingfeng_logo"></a>
 			</h1>
 			<!-- 导航 S -->
@@ -149,26 +150,23 @@
 		</div>
 	</div>
 	<!-- 头部 E -->
-
-
-
+	<!-- 首发图片 -->
 	<!-- 首发图片 -->
 	<div class="mod_index mod_index--new mod_slide_box" id="albumlist_box">
 		<div class="section_inner">
-		
+
 			<div class="index__hd">
-				<h1 class="index__tit" style="color:#ffffff;font-size:40px;">
-					图片首发
-				</h1>
+				<h1 class="index__tit" style="color: #ffffff; font-size: 40px;">
+					图片首发</h1>
 				<i class="index__line index__line--left"></i> <i
 					class="index__line index__line--right"></i>
 			</div>
-			
+
 			<a
 				href="//y.qq.com/portal/album_lib.html#stat=y_new.index.album.more"
 				class="index__more index__more--white js_album_more">全部<i
 				class="icon_index_arrow"></i></a>
-			
+
 			<!-- 切换 -->
 			<div class="mod_index_tab">
 				<a
@@ -190,886 +188,324 @@
 			</div>
 			<div class="mod_playlist mod_slide">
 				<!-- 偶数加 playlist__item--even -->
-				<ul class="playlist__list slide__list" id="albumlist"
-					style="left: -1200px;">
-					<li class="playlist__item slide__item "
+				<ul class="playlist__list slide__list" id="albumlist">
+					
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="003mdJwN0b2eCL" data-albumid="1987169">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/003mdJwN0b2eCL.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="003mdJwN0b2eCL" data-albumid="1987169"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000003mdJwN0b2eCL.jpg?max_age=2592000"
-									alt="粉墨"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/a.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/003mdJwN0b2eCL.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="003mdJwN0b2eCL" data-albumid="1987169">粉墨</a></span> <a
-									href="javascript:;" class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="003mdJwN0b2eCL"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/0018bYjA4bdNNi.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="0018bYjA4bdNNi" title="霍尊">霍尊</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item  playlist__item--even "
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="003O5BtL38BTzW" data-albumid="1984818">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/003O5BtL38BTzW.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="003O5BtL38BTzW" data-albumid="1984818"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000003O5BtL38BTzW.jpg?max_age=2592000"
-									alt="对你说爱"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/b.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/003O5BtL38BTzW.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="003O5BtL38BTzW" data-albumid="1984818">对你说爱</a></span>
-								<a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="003O5BtL38BTzW"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/0019iLuN2glWFi.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="0019iLuN2glWFi" title="孙楠">孙楠</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item "
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="003u9x8X029bUq" data-albumid="1984429">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/003u9x8X029bUq.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="003u9x8X029bUq" data-albumid="1984429"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000003u9x8X029bUq.jpg?max_age=2592000"
-									alt="Freedom"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/c.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/003u9x8X029bUq.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="003u9x8X029bUq" data-albumid="1984429">Freedom</a></span>
-								<a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="003u9x8X029bUq"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/000SJp6n49rDgl.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="000SJp6n49rDgl" title="张赫宣">张赫宣</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item  playlist__item--even "
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="0028ZJHG32PDoj" data-albumid="1977064">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/0028ZJHG32PDoj.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="0028ZJHG32PDoj" data-albumid="1977064"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M0000028ZJHG32PDoj.jpg?max_age=2592000"
-									alt="过节"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/d.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/0028ZJHG32PDoj.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="0028ZJHG32PDoj" data-albumid="1977064">过节</a></span> <a
-									href="javascript:;" class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="0028ZJHG32PDoj"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/003U6coz1AhN3H.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="003U6coz1AhN3H" title="简弘亦">简弘亦</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item "
+					
+					
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="003PwAfH1fSqbP" data-albumid="1790642">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/003PwAfH1fSqbP.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="003PwAfH1fSqbP" data-albumid="1790642"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000003PwAfH1fSqbP.jpg?max_age=2592000"
-									alt="旅程"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/d.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/003PwAfH1fSqbP.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="003PwAfH1fSqbP" data-albumid="1790642">旅程</a></span> <a
-									href="javascript:;" class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="003PwAfH1fSqbP"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/004DTQXp0cNXeG.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="004DTQXp0cNXeG" title="魏晨">魏晨</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item  playlist__item--even "
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="001DmIhD39LkeJ" data-albumid="1944045">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/001DmIhD39LkeJ.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="001DmIhD39LkeJ" data-albumid="1944045"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000001DmIhD39LkeJ.jpg?max_age=2592000"
-									alt="BANG THE WORLD"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/c.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/001DmIhD39LkeJ.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="001DmIhD39LkeJ" data-albumid="1944045">BANG
-										THE WORLD</a></span> <a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="001DmIhD39LkeJ"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/000aw4WC2EQYTv.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="000aw4WC2EQYTv" title="张靓颖">张靓颖</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item "
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="001JcsBG3zEXvE" data-albumid="2001836">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/001JcsBG3zEXvE.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="001JcsBG3zEXvE" data-albumid="2001836"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000001JcsBG3zEXvE.jpg?max_age=2592000"
-									alt="厉害了！我的歌 第13期"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/b.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/001JcsBG3zEXvE.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="001JcsBG3zEXvE" data-albumid="2001836">厉害了！我的歌
-										第13期</a></span> <a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="001JcsBG3zEXvE"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/003DKw2A1UKCkM.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="003DKw2A1UKCkM" title="厉害了！我的歌">厉害了！我的歌</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item  playlist__item--even "
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="003oCYtF074aUH" data-albumid="2002287">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/003oCYtF074aUH.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="003oCYtF074aUH" data-albumid="2002287"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000003oCYtF074aUH.jpg?max_age=2592000"
-									alt="金曲捞 第1期"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/a.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/003oCYtF074aUH.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="003oCYtF074aUH" data-albumid="2002287">金曲捞
-										第1期</a></span> <a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="003oCYtF074aUH"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/004NuF1M2hJBsp.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="004NuF1M2hJBsp" title="金曲捞">金曲捞</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item "
+					
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="004cAT9i1Ij9Gk" data-albumid="1998375">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/004cAT9i1Ij9Gk.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="004cAT9i1Ij9Gk" data-albumid="1998375"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000004cAT9i1Ij9Gk.jpg?max_age=2592000"
-									alt="青云直上"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/a.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/004cAT9i1Ij9Gk.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="004cAT9i1Ij9Gk" data-albumid="1998375">青云直上</a></span>
-								<a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="004cAT9i1Ij9Gk"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/0021sRlK1Ge1aY.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="0021sRlK1Ge1aY" title="凤凰传奇">凤凰传奇</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item  playlist__item--even "
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="002J5MWG3SA9mA" data-albumid="1980115">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/002J5MWG3SA9mA.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="002J5MWG3SA9mA" data-albumid="1980115"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000002J5MWG3SA9mA.jpg?max_age=2592000"
-									alt="从心出发"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/b.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/002J5MWG3SA9mA.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="002J5MWG3SA9mA" data-albumid="1980115">从心出发</a></span>
-								<a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="002J5MWG3SA9mA"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/003Cn3Yh16q1MO.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="003Cn3Yh16q1MO" title="庄心妍">庄心妍</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item "
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="004VWxzF1yFyYi" data-albumid="2001715">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/004VWxzF1yFyYi.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="004VWxzF1yFyYi" data-albumid="2001715"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000004VWxzF1yFyYi.jpg?max_age=2592000"
-									alt="The Road"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/c.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/004VWxzF1yFyYi.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="004VWxzF1yFyYi" data-albumid="2001715">The
-										Road</a></span> <a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="004VWxzF1yFyYi"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/003XriCI0OfGYj.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="003XriCI0OfGYj" title="黄子韬">黄子韬</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item  playlist__item--even "
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="002Uwfow4LEo7y" data-albumid="2001019">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/002Uwfow4LEo7y.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="002Uwfow4LEo7y" data-albumid="2001019"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000002Uwfow4LEo7y.jpg?max_age=2592000"
-									alt="在你身体里"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/d.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/002Uwfow4LEo7y.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="002Uwfow4LEo7y" data-albumid="2001019">在你身体里</a></span>
-								<a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="002Uwfow4LEo7y"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/000m8IbI4LBbBo.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="000m8IbI4LBbBo" title="新街口组合">新街口组合</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item "
+					
+					
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="0002zEaL14XNM6" data-albumid="1989292">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/0002zEaL14XNM6.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="0002zEaL14XNM6" data-albumid="1989292"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M0000002zEaL14XNM6.jpg?max_age=2592000"
-									alt="星辰"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/d.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/0002zEaL14XNM6.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="0002zEaL14XNM6" data-albumid="1989292">星辰</a></span> <a
-									href="javascript:;" class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="0002zEaL14XNM6"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/002azErJ0UcDN6.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="002azErJ0UcDN6" title="张杰">张杰</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item  playlist__item--even "
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="003A25Bu0jDZ7d" data-albumid="2001915">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/003A25Bu0jDZ7d.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="003A25Bu0jDZ7d" data-albumid="2001915"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000003A25Bu0jDZ7d.jpg?max_age=2592000"
-									alt="观音阁"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/c.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/003A25Bu0jDZ7d.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="003A25Bu0jDZ7d" data-albumid="2001915">观音阁</a></span> <a
-									href="javascript:;" class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="003A25Bu0jDZ7d"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/002r7R8u1oLuPp.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="002r7R8u1oLuPp" title="陈梓童">陈梓童</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item "
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="001m3Pep0zby1u" data-albumid="1989268">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/001m3Pep0zby1u.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="001m3Pep0zby1u" data-albumid="1989268"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000001m3Pep0zby1u.jpg?max_age=2592000"
-									alt="注定"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/b.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/001m3Pep0zby1u.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="001m3Pep0zby1u" data-albumid="1989268">注定</a></span> <a
-									href="javascript:;" class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="001m3Pep0zby1u"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/004HlS192u9J5g.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="004HlS192u9J5g" title="周笔畅">周笔畅</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item  playlist__item--even "
+					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="002JRl3m16wLPL" data-albumid="1987857">
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
 						<div class="playlist__item_box">
 							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/002JRl3m16wLPL.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="002JRl3m16wLPL" data-albumid="1987857"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000002JRl3m16wLPL.jpg?max_age=2592000"
-									alt="漂洋过海来看你 OST 原声辑"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
+								<a href="" class="js_album" >
+								<img src="images/a.jpg" alt="过节" class="playlist__pic"></a>
 							</div>
 							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/002JRl3m16wLPL.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="002JRl3m16wLPL" data-albumid="1987857">漂洋过海来看你
-										OST 原声辑</a></span> <a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="002JRl3m16wLPL"><span class="icon_txt">更多</span></a>
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
 							</h4>
-
 							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/001ngJED2j4nNl.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="001ngJED2j4nNl" title="严艺丹">严艺丹</a>
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
 							</div>
 						</div>
 					</li>
-
-					<li class="playlist__item slide__item "
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="003mdJwN0b2eCL" data-albumid="1987169">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/003mdJwN0b2eCL.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="003mdJwN0b2eCL" data-albumid="1987169"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000003mdJwN0b2eCL.jpg?max_age=2592000"
-									alt="粉墨"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/003mdJwN0b2eCL.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="003mdJwN0b2eCL" data-albumid="1987169">粉墨</a></span> <a
-									href="javascript:;" class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="003mdJwN0b2eCL"><span class="icon_txt">更多</span></a>
-							</h4>
-
-							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/0018bYjA4bdNNi.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="0018bYjA4bdNNi" title="霍尊">霍尊</a>
-							</div>
-						</div>
-					</li>
-
-					<li class="playlist__item slide__item  playlist__item--even "
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="003O5BtL38BTzW" data-albumid="1984818">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/003O5BtL38BTzW.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="003O5BtL38BTzW" data-albumid="1984818"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000003O5BtL38BTzW.jpg?max_age=2592000"
-									alt="对你说爱"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/003O5BtL38BTzW.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="003O5BtL38BTzW" data-albumid="1984818">对你说爱</a></span>
-								<a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="003O5BtL38BTzW"><span class="icon_txt">更多</span></a>
-							</h4>
-
-							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/0019iLuN2glWFi.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="0019iLuN2glWFi" title="孙楠">孙楠</a>
-							</div>
-						</div>
-					</li>
-
-					<li class="playlist__item slide__item "
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="003u9x8X029bUq" data-albumid="1984429">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/003u9x8X029bUq.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="003u9x8X029bUq" data-albumid="1984429"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000003u9x8X029bUq.jpg?max_age=2592000"
-									alt="Freedom"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/003u9x8X029bUq.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="003u9x8X029bUq" data-albumid="1984429">Freedom</a></span>
-								<a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="003u9x8X029bUq"><span class="icon_txt">更多</span></a>
-							</h4>
-
-							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/000SJp6n49rDgl.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="000SJp6n49rDgl" title="张赫宣">张赫宣</a>
-							</div>
-						</div>
-					</li>
-
-					<li class="playlist__item slide__item  playlist__item--even "
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="0028ZJHG32PDoj" data-albumid="1977064">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/0028ZJHG32PDoj.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="0028ZJHG32PDoj" data-albumid="1977064"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M0000028ZJHG32PDoj.jpg?max_age=2592000"
-									alt="过节"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/0028ZJHG32PDoj.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="0028ZJHG32PDoj" data-albumid="1977064">过节</a></span> <a
-									href="javascript:;" class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="0028ZJHG32PDoj"><span class="icon_txt">更多</span></a>
-							</h4>
-
-							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/003U6coz1AhN3H.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="003U6coz1AhN3H" title="简弘亦">简弘亦</a>
-							</div>
-						</div>
-					</li>
-
-					<li class="playlist__item slide__item "
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="003PwAfH1fSqbP" data-albumid="1790642">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/003PwAfH1fSqbP.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="003PwAfH1fSqbP" data-albumid="1790642"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000003PwAfH1fSqbP.jpg?max_age=2592000"
-									alt="旅程"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/003PwAfH1fSqbP.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="003PwAfH1fSqbP" data-albumid="1790642">旅程</a></span> <a
-									href="javascript:;" class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="003PwAfH1fSqbP"><span class="icon_txt">更多</span></a>
-							</h4>
-
-							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/004DTQXp0cNXeG.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="004DTQXp0cNXeG" title="魏晨">魏晨</a>
-							</div>
-						</div>
-					</li>
-
-					<li class="playlist__item slide__item  playlist__item--even "
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="001DmIhD39LkeJ" data-albumid="1944045">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/001DmIhD39LkeJ.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="001DmIhD39LkeJ" data-albumid="1944045"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000001DmIhD39LkeJ.jpg?max_age=2592000"
-									alt="BANG THE WORLD"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/001DmIhD39LkeJ.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="001DmIhD39LkeJ" data-albumid="1944045">BANG
-										THE WORLD</a></span> <a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="001DmIhD39LkeJ"><span class="icon_txt">更多</span></a>
-							</h4>
-
-							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/000aw4WC2EQYTv.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="000aw4WC2EQYTv" title="张靓颖">张靓颖</a>
-							</div>
-						</div>
-					</li>
-
-					<li class="playlist__item slide__item "
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="001JcsBG3zEXvE" data-albumid="2001836">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/001JcsBG3zEXvE.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="001JcsBG3zEXvE" data-albumid="2001836"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000001JcsBG3zEXvE.jpg?max_age=2592000"
-									alt="厉害了！我的歌 第13期"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/001JcsBG3zEXvE.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="001JcsBG3zEXvE" data-albumid="2001836">厉害了！我的歌
-										第13期</a></span> <a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="001JcsBG3zEXvE"><span class="icon_txt">更多</span></a>
-							</h4>
-
-							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/003DKw2A1UKCkM.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="003DKw2A1UKCkM" title="厉害了！我的歌">厉害了！我的歌</a>
-							</div>
-						</div>
-					</li>
-
-					<li class="playlist__item slide__item  playlist__item--even "
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-						data-albummid="003oCYtF074aUH" data-albumid="2002287">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a
-									href="https://y.qq.com/n/yqq/album/003oCYtF074aUH.html#stat=y_new.index.album.albumpic"
-									class="js_album" data-stat="y_new.index.album.albumpic"
-									data-albummid="003oCYtF074aUH" data-albumid="2002287"><img
-									src="//y.gtimg.cn/music/photo_new/T002R300x300M000003oCYtF074aUH.jpg?max_age=2592000"
-									alt="金曲捞 第1期"
-									onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;"
-									class="playlist__pic"><i class="mod_cover__mask"></i><i
-									class="mod_cover__icon_play js_play"
-									data-stat="y_new.index.album.play_btn"></i></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt"><a
-									href="https://y.qq.com/n/yqq/album/003oCYtF074aUH.html#stat=y_new.index.album.albumname"
-									class="js_album" data-stat="y_new.index.album.albumname"
-									data-albummid="003oCYtF074aUH" data-albumid="2002287">金曲捞
-										第1期</a></span> <a href="javascript:;"
-									class="btn_operate_menu js_albumlist_more"
-									data-stat="y_new.index.album.more" data-type="2"
-									data-mid="003oCYtF074aUH"><span class="icon_txt">更多</span></a>
-							</h4>
-
-							<div class="playlist__author">
-								<a
-									href="https://y.qq.com/n/yqq/singer/004NuF1M2hJBsp.html#stat=y_new.index.album.singername"
-									class="js_singer" data-stat="y_new.index.album.singername"
-									data-singermid="004NuF1M2hJBsp" title="金曲捞">金曲捞</a>
-							</div>
-						</div>
-					</li>
+					
+					
+					
+					
+					
+					
+					
 				</ul>
 			</div>
 			<div class="mod_slide_switch js_switch"
@@ -1094,14 +530,14 @@
 		</div>
 		<div class="mod_slide_action">
 			<div class="slide_action slide_action--left">
-				<a href="javascript:;"
+				<a href="javascript:;" id="albumlistPreLi"
 					class="slide_action__btn slide_action__btn--left js_jump"
 					data-p="prev" data-stat="y_new.index.album.pager" tabindex="-1"><i
 					class="icon_txt">上一页</i><i
 					class="slide_action__arrow slide_action__arrow--left"></i></a>
 			</div>
 			<div class="slide_action slide_action--right">
-				<a href="javascript:;"
+				<a href="javascript:;" id="albumlistNextLi"
 					class="slide_action__btn slide_action__btn--right js_jump"
 					data-p="next" data-stat="y_new.index.album.pager" tabindex="-1"><i
 					class="icon_txt">下一页</i><i
@@ -1113,96 +549,94 @@
 	<div class="mod_index mod_index--event mod_slide_box" id="focus">
 		<div class="section_inner">
 			<div class="index__hd">
-				<h2 class="index__tit" style="color:#000;font-size:40px;">
-					精彩推荐
-				</h2>
-				<i class="index__line index__line--left"></i> <i
-					class="index__line index__line--right"></i>
+				<h2 class="index__tit" style="color:#000; font-size: 40px;">
+					精彩推荐</h2>
+				<i class="index__line index__line--left"></i> 
+				<i class="index__line index__line--right"></i>
 			</div>
 			<div class="mod_event mod_slide mod_focus--animate">
 				<ul class="event_list slide__list">
 
-					<li class="event_list__item slide__item js_focus_pic p1"
+					<li class="event_list__item slide__item js_focus_pic p1" id="P1"
 						data-idx="6"><a href="javascript:;"
 						class="event_list__link js_focus_jump" data-type="3002"
 						data-stat="y_new.index.focus.click"
 						data-id="https://y.qq.com/msa/227/1_2849.html"> <img
-							src="https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/90056.jpg"
+							src="images/11.jpg"
 							class="event_list__pic" alt="YQQ电音联动">
 					</a></li>
 
-					<li class="event_list__item slide__item js_focus_pic p9"
+					<li class="event_list__item slide__item js_focus_pic p2" id="P2"
 						data-idx="5"><a href="javascript:;"
 						class="event_list__link js_focus_jump" data-type="3002"
 						data-stat="y_new.index.focus.click"
 						data-id="https://y.qq.com/msa/226/1_2847.html"> <img
-							src="https://y.gtimg.cn/music/common/upload/t_musichall_tuijian_feature/90035.jpg"
+							src="images/22.jpg"
 							class="event_list__pic" alt="YQQ The Chainsmokers">
 					</a></li>
 
-					<li class="event_list__item slide__item js_focus_pic p8"
+					<li class="event_list__item slide__item js_focus_pic p3" id="P3"
 						data-idx="4"><a href="javascript:;"
 						class="event_list__link js_focus_jump" data-type="3002"
 						data-stat="y_new.index.focus.click"
 						data-id="http://y.qq.com/vip/hh1vip1/index.html"> <img
-							src="https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/83606.jpg"
+							src="images/33.jpg"
 							class="event_list__pic" alt="pc+yqq：一元升级豪华">
 					</a></li>
 
-					<li class="event_list__item slide__item js_focus_pic p7"
+					<li class="event_list__item slide__item js_focus_pic p4" id="P4"
 						data-idx="3"><a href="javascript:;"
 						class="event_list__link js_focus_jump" data-type="10014"
 						data-stat="y_new.index.focus.click" data-id="1758752341"> <img
-							src="https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/89930.jpg"
+							src="images/44.jpg"
 							class="event_list__pic" alt="厉害了，我的歌">
 					</a></li>
 
-					<li class="event_list__item slide__item js_focus_pic p6"
+					<li class="event_list__item slide__item js_focus_pic p5" id="P5"
 						data-idx="2"><a href="javascript:;"
 						class="event_list__link js_focus_jump" data-type="10002"
 						data-stat="y_new.index.focus.click" data-id="001z8qcm1JUtwk">
 							<img
-							src="https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/89498.jpg"
+							src="images/55.jpg"
 							class="event_list__pic" alt="小马丁PC+YQQ">
 					</a></li>
 
-					<li class="event_list__item slide__item js_focus_pic p5"
+					<li class="event_list__item slide__item js_focus_pic p6" id="P6"
 						data-idx="1"><a href="javascript:;"
 						class="event_list__link js_focus_jump" data-type="10002"
 						data-stat="y_new.index.focus.click" data-id="003oCYtF074aUH">
 							<img
-							src="https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/90367.jpg"
+							src="images/66.jpg"
 							class="event_list__pic" alt="YQQ 金曲捞第一期">
 					</a></li>
 
-					<li class="event_list__item slide__item js_focus_pic p4"
+					<li class="event_list__item slide__item js_focus_pic p7" id="P7"
 						data-idx="0"><a href="javascript:;"
 						class="event_list__link js_focus_jump" data-type="3002"
 						data-stat="y_new.index.focus.click"
 						data-id="https://c.y.qq.com/r/cIye?id=1877342&amp;g_f=yqqjiaodian">
 							<img
-							src="https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/89708.jpg"
+							src="images/77.jpg"
 							class="event_list__pic" alt="YQQ-速8正售">
 					</a></li>
 
-					<li class="event_list__item slide__item js_focus_pic p3"
+					<li class="event_list__item slide__item js_focus_pic p8" id="P8"
 						data-idx="8"><a href="javascript:;"
 						class="event_list__link js_focus_jump" data-type="3002"
 						data-stat="y_new.index.focus.click"
 						data-id="https://y.qq.com/n/yqq/mv/c/uvoexkrvvmwuf8b.html"> <img
-							src="https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/90200.jpg"
+							src="images/88.jpg"
 							class="event_list__pic" alt="这个四月剧有意思">
 					</a></li>
 
-					<li class="event_list__item slide__item js_focus_pic p2"
+					<li class="event_list__item slide__item js_focus_pic p9" id="P9"
 						data-idx="7"><a href="javascript:;"
 						class="event_list__link js_focus_jump" data-type="3002"
 						data-stat="y_new.index.focus.click"
 						data-id="https://y.qq.com/msa/209/1_2829.html"> <img
-							src="https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/89857.jpg"
+							src="images/99.jpg"
 							class="event_list__pic" alt="封面控YQQ">
 					</a></li>
-
 				</ul>
 			</div>
 			<div class="mod_slide_switch js_focus_index">
@@ -1232,37 +666,43 @@
 					class="slide_switch__bg"></i><i class="icon_txt">9</i></a>
 
 			</div>
+			
 		</div>
 		<div class="mod_slide_action">
-			<div class="slide_action slide_action--left">
-				<a href="javascript:;"
-					class="slide_action__btn slide_action__btn--left" tabindex="-1"><i
-					class="icon_txt">上一页</i><i
-					class="slide_action__arrow slide_action__arrow--left"></i></a>
+				<div class="slide_action slide_action--left">
+					<a href="javascript:;" id="preLi"
+						class="slide_action__btn slide_action__btn--left js_jump"
+						data-p="prev" data-stat="y_new.index.album.pager" tabindex="-1"><i
+						class="icon_txt">上一页</i><i
+						class="slide_action__arrow slide_action__arrow--left"></i></a>
+				</div>
+				<div class="slide_action slide_action--right">
+					<a href="javascript:;" id="nextLi"
+						class="slide_action__btn slide_action__btn--right js_jump"
+						data-p="next" data-stat="y_new.index.album.pager" tabindex="-1"><i
+						class="icon_txt">下一页</i><i
+						class="slide_action__arrow slide_action__arrow--right"></i></a>
+				</div>
 			</div>
-			<div class="slide_action slide_action--right">
-				<a href="javascript:;"
-					class="slide_action__btn slide_action__btn--right" tabindex="-1"><i
-					class="icon_txt">下一页</i><i
-					class="slide_action__arrow slide_action__arrow--right"></i></a>
-			</div>
-		</div>
 	</div>
+	
+	
+	
 	<!-- 图片排行榜 -->
 	<div id="toplist_box">
 		<div class="mod_index mod_index--top mod_slide_box">
 			<div class="section_inner">
 				<div class="index__hd">
-					<h2 class="index__tit" style="color:#ffffff;font-size:40px;">
-						图片排行榜
-					</h2>
+					<h2 class="index__tit" style="color: #ffffff; font-size: 40px;">
+						图片排行榜</h2>
 					<i class="index__line index__line--left"></i> <i
 						class="index__line index__line--right"></i>
 				</div>
 				<a
 					href="https://y.qq.com/n/yqq/toplist/4.html#stat=y_new.index.toplist.more"
-					class="index__more index__more--white">全部<i
-					class="icon_index_arrow"></i></a>
+					class="index__more index__more--white">全部
+					<i class="icon_index_arrow"></i>
+					</a>
 
 				<div class="mod_toplist">
 					<ul class="toplist__list">
@@ -1278,7 +718,8 @@
 									data-id="4" class="toplist__tit js_toplist"
 									data-stat="y_new.index.toplist.detail1"><i
 									class="toplist__tit_top"><i class="icon_txt">巅峰榜</i></i>
-								<div class="toplist__tit_pop">流行指数</div></a>
+									<div class="toplist__tit_pop">流行指数</div>
+								</a>
 							</h3>
 							<ul class="toplist__songlist">
 
@@ -1361,7 +802,7 @@
 									data-id="26" class="toplist__tit js_toplist"
 									data-stat="y_new.index.toplist.detail2"><i
 									class="toplist__tit_top"><i class="icon_txt">巅峰榜</i></i>
-								<div class="toplist__tit_pop">热歌</div></a>
+									<div class="toplist__tit_pop">热歌</div></a>
 							</h3>
 							<ul class="toplist__songlist">
 
@@ -1443,7 +884,7 @@
 									data-id="27" class="toplist__tit js_toplist"
 									data-stat="y_new.index.toplist.detail3"><i
 									class="toplist__tit_top"><i class="icon_txt">巅峰榜</i></i>
-								<div class="toplist__tit_pop">新歌</div></a>
+									<div class="toplist__tit_pop">新歌</div></a>
 							</h3>
 							<ul class="toplist__songlist">
 
@@ -1525,7 +966,7 @@
 									data-id="3" class="toplist__tit js_toplist"
 									data-stat="y_new.index.toplist.detail4"><i
 									class="toplist__tit_top"><i class="icon_txt">巅峰榜</i></i>
-								<div class="toplist__tit_pop">欧美</div></a>
+									<div class="toplist__tit_pop">欧美</div></a>
 							</h3>
 							<ul class="toplist__songlist">
 
@@ -1596,61 +1037,27 @@
 											To Rock/杨斯捷</a>
 									</div>
 								</li>
-
 							</ul>
 						</li>
-
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
+	
 	<!-- 热门图片 -->
 	<div id="taogelist_box">
 		<div class="mod_index mod_index--hot mod_slide_box">
 			<div class="section_inner">
 				<div class="index__hd">
-					<h2 class="index__tit" style="color:#000;font-size:40px;">
-						热门图片
-					</h2>
+					<h2 class="index__tit" style="color: #000; font-size: 40px;">
+						热门图片</h2>
 					<i class="index__line index__line--left"></i> <i
 						class="index__line index__line--right"></i>
 				</div>
 				<div class="mod_playlist mod_slide">
 					<!-- 偶数加 playlist__item--even -->
-					<ul class="playlist__list slide__list" style="left: -1200px;">
-
-						<li class="playlist__item  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="3557346129">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/3557346129.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="3557346129"><img
-										src="https://p.qpic.cn/music_cover/OKvNbjQLV7elAKLvyefOHQNB569KJcImicPLfqmicN2HgTicC5Hib9GuZQ/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="『长歌名』每一个歌名包含着一个小故事" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/3557346129.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="3557346129" title="『长歌名』每一个歌名包含着一个小故事">『长歌名』每一个歌名包含着一个小故事</a></span>
-									<a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="3557346129"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：17.7万</div>
-							</div>
-						</li>
+					<ul class="playlist__list slide__list" >
 
 						<li class="playlist__item  playlist__item--even  slide__item"
 							onmouseover="this.className=(this.className+' playlist__item--hover')"
@@ -1662,7 +1069,7 @@
 										href="https://y.qq.com/n/yqq/playlist/1758477238.html#stat=y_new.index.playlist.pic"
 										class="js_playlist" data-stat="y_new.index.playlist.pic"
 										data-disstid="1758477238"><img
-										src="https://p.qpic.cn/music_cover/SXTicaprnQbfAyiaibTsguPlD3zHQMB41qtPxPJz2iaghGVIXkX8an5DvA/300?n=1"
+										src="images/1.jpg"
 										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
 										alt="尘缘苦短，国内正气电视剧原声精选" class="playlist__pic"><i
 										class="mod_cover__mask"></i><i
@@ -1694,7 +1101,7 @@
 										href="https://y.qq.com/n/yqq/playlist/2361486529.html#stat=y_new.index.playlist.pic"
 										class="js_playlist" data-stat="y_new.index.playlist.pic"
 										data-disstid="2361486529"><img
-										src="https://y.gtimg.cn/music/photo/album_300/95/300_albumpic_2000095_0.jpg?n=1"
+										src="images/2.jpg"
 										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
 										alt="回忆杀|那些藏在歌声里的人和故事" class="playlist__pic"><i
 										class="mod_cover__mask"></i><i
@@ -1726,7 +1133,7 @@
 										href="https://y.qq.com/n/yqq/playlist/2052943860.html#stat=y_new.index.playlist.pic"
 										class="js_playlist" data-stat="y_new.index.playlist.pic"
 										data-disstid="2052943860"><img
-										src="https://p.qpic.cn/music_cover/ajNVdqHZLLBm1jEjKJMIAd2b8micIsENb4KLkaTGYYzE4IicXHBE6gMg/300?n=1"
+										src="images/3.jpg"
 										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
 										alt="J.Fla翻唱，迷人的嗓音" class="playlist__pic"><i
 										class="mod_cover__mask"></i><i
@@ -1758,7 +1165,7 @@
 										href="https://y.qq.com/n/yqq/playlist/1157243437.html#stat=y_new.index.playlist.pic"
 										class="js_playlist" data-stat="y_new.index.playlist.pic"
 										data-disstid="1157243437"><img
-										src="https://p.qpic.cn/music_cover/ZkTFMk21KjWj9o0kZH0sPEPkF775ctbLn9hHwMKK0ibYTTvibuSrw6FA/300?n=1"
+										src="images/4.jpg"
 										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
 										alt="华语虐心50首：分开，是一个人的寂寞" class="playlist__pic"><i
 										class="mod_cover__mask"></i><i
@@ -1779,487 +1186,6 @@
 								<div class="playlist__other">播放量：193.4万</div>
 							</div>
 						</li>
-
-						<li class="playlist__item  playlist__item--even  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="2957852137">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/2957852137.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="2957852137"><img
-										src="https://p.qpic.cn/music_cover/Q6jzKPNCPTc2iczypkicqzaFica4OsD6cYgXjQGoxduCqSo3vMMmoSpww/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="【Spinnin Records】精选70首最佳电子舞曲" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/2957852137.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="2957852137" title="【Spinnin Records】精选70首最佳电子舞曲">【Spinnin
-											Records】精选70首最佳电子舞曲</a></span> <a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="2957852137"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：55.4万</div>
-							</div>
-						</li>
-
-						<li class="playlist__item  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="3257970091">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/3257970091.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="3257970091"><img
-										src="https://p.qpic.cn/music_cover/CJ35Z2cnZA0kWwtIMrxsbticYialmQJeKuNxnK6dQj7ibYBgluD2xcMlg/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="心在流浪 | 且让民谣代替灵魂去远行" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/3257970091.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="3257970091" title="心在流浪 | 且让民谣代替灵魂去远行">心在流浪
-											| 且让民谣代替灵魂去远行</a></span> <a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="3257970091"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：29.2万</div>
-							</div>
-						</li>
-
-						<li class="playlist__item  playlist__item--even  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="3258119978">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/3258119978.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="3258119978"><img
-										src="https://p.qpic.cn/music_cover/0XaJ7WwKJXDzVrtkNbdjrRZIBnDDxa0K1N4WUAvrO5ibcmWOlyY9fEA/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="最强明星阵容：Coachella 2017音乐节名单" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/3258119978.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="3258119978" title="最强明星阵容：Coachella 2017音乐节名单">最强明星阵容：Coachella
-											2017音乐节名单</a></span> <a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="3258119978"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：25.8万</div>
-							</div>
-						</li>
-
-						<li class="playlist__item  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="2955030614">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/2955030614.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="2955030614"><img
-										src="https://p.qpic.cn/music_cover/vyicOTSLGX9NIGYlsGS3EsW3Le0iaNc0ZHlSav0Wicibq1Tiael9DrYM4tw/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="『民谣小清新』  想把我唱给你听  " class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/2955030614.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="2955030614" title="『民谣小清新』  想把我唱给你听  ">『民谣小清新』
-											想把我唱给你听 </a></span> <a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="2955030614"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：24.0万</div>
-							</div>
-						</li>
-
-						<li class="playlist__item  playlist__item--even  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="1156421106">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/1156421106.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="1156421106"><img
-										src="https://p.qpic.cn/music_cover/lricrZ3ca62ybvZbWYjtYaicPH7E1f8Ilhu6tlv0QxoAiconJaMU83YUQ/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="欧美：享受这直击心灵的仙气飘飘" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/1156421106.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="1156421106" title="欧美：享受这直击心灵的仙气飘飘">欧美：享受这直击心灵的仙气飘飘</a></span>
-									<a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="1156421106"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：21.3万</div>
-							</div>
-						</li>
-
-						<li class="playlist__item  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="1758520952">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/1758520952.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="1758520952"><img
-										src="https://p.qpic.cn/music_cover/Xsq6qhuvjwjo1dw4Esyp6E4aIGPnLGibLeN7546AkJXcXOXBYyp3trw/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="「八音盒」唯美空灵，安然入梦" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/1758520952.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="1758520952" title="「八音盒」唯美空灵，安然入梦">「八音盒」唯美空灵，安然入梦</a></span>
-									<a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="1758520952"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：15.3万</div>
-							</div>
-						</li>
-
-						<li class="playlist__item  playlist__item--even  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="3258131838">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/3258131838.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="3258131838"><img
-										src="https://p.qpic.cn/music_cover/eacbTb8ummvwhVIq3q3Im4ab9L06aHf4TeQoKB2ycBBuZjHEia7XplQ/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="全球最大泼水音乐节：S2O 享受DJ盛宴" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/3258131838.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="3258131838" title="全球最大泼水音乐节：S2O 享受DJ盛宴">全球最大泼水音乐节：S2O
-											享受DJ盛宴</a></span> <a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="3258131838"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：20.1万</div>
-							</div>
-						</li>
-
-						<li class="playlist__item  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="3557346129">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/3557346129.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="3557346129"><img
-										src="https://p.qpic.cn/music_cover/OKvNbjQLV7elAKLvyefOHQNB569KJcImicPLfqmicN2HgTicC5Hib9GuZQ/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="『长歌名』每一个歌名包含着一个小故事" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/3557346129.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="3557346129" title="『长歌名』每一个歌名包含着一个小故事">『长歌名』每一个歌名包含着一个小故事</a></span>
-									<a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="3557346129"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：17.7万</div>
-							</div>
-						</li>
-
-						<li class="playlist__item  playlist__item--even  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="1758477238">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/1758477238.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="1758477238"><img
-										src="https://p.qpic.cn/music_cover/SXTicaprnQbfAyiaibTsguPlD3zHQMB41qtPxPJz2iaghGVIXkX8an5DvA/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="尘缘苦短，国内正气电视剧原声精选" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/1758477238.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="1758477238" title="尘缘苦短，国内正气电视剧原声精选">尘缘苦短，国内正气电视剧原声精选</a></span>
-									<a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="1758477238"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：7.7万</div>
-							</div>
-						</li>
-
-						<li class="playlist__item  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="2361486529">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/2361486529.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="2361486529"><img
-										src="https://y.gtimg.cn/music/photo/album_300/95/300_albumpic_2000095_0.jpg?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="回忆杀|那些藏在歌声里的人和故事" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/2361486529.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="2361486529" title="回忆杀|那些藏在歌声里的人和故事">回忆杀|那些藏在歌声里的人和故事</a></span>
-									<a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="2361486529"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：10.3万</div>
-							</div>
-						</li>
-
-						<li class="playlist__item  playlist__item--even  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="2052943860">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/2052943860.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="2052943860"><img
-										src="https://p.qpic.cn/music_cover/ajNVdqHZLLBm1jEjKJMIAd2b8micIsENb4KLkaTGYYzE4IicXHBE6gMg/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="J.Fla翻唱，迷人的嗓音" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/2052943860.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="2052943860" title="J.Fla翻唱，迷人的嗓音">J.Fla翻唱，迷人的嗓音</a></span>
-									<a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="2052943860"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：30.7万</div>
-							</div>
-						</li>
-
-						<li class="playlist__item  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="1157243437">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/1157243437.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="1157243437"><img
-										src="https://p.qpic.cn/music_cover/ZkTFMk21KjWj9o0kZH0sPEPkF775ctbLn9hHwMKK0ibYTTvibuSrw6FA/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="华语虐心50首：分开，是一个人的寂寞" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/1157243437.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="1157243437" title="华语虐心50首：分开，是一个人的寂寞">华语虐心50首：分开，是一个人的寂寞</a></span>
-									<a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="1157243437"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：193.4万</div>
-							</div>
-						</li>
-
-						<li class="playlist__item  playlist__item--even  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="2957852137">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/2957852137.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="2957852137"><img
-										src="https://p.qpic.cn/music_cover/Q6jzKPNCPTc2iczypkicqzaFica4OsD6cYgXjQGoxduCqSo3vMMmoSpww/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="【Spinnin Records】精选70首最佳电子舞曲" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/2957852137.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="2957852137" title="【Spinnin Records】精选70首最佳电子舞曲">【Spinnin
-											Records】精选70首最佳电子舞曲</a></span> <a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="2957852137"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：55.4万</div>
-							</div>
-						</li>
-
-						<li class="playlist__item  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="3257970091">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/3257970091.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="3257970091"><img
-										src="https://p.qpic.cn/music_cover/CJ35Z2cnZA0kWwtIMrxsbticYialmQJeKuNxnK6dQj7ibYBgluD2xcMlg/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="心在流浪 | 且让民谣代替灵魂去远行" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/3257970091.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="3257970091" title="心在流浪 | 且让民谣代替灵魂去远行">心在流浪
-											| 且让民谣代替灵魂去远行</a></span> <a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="3257970091"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：29.2万</div>
-							</div>
-						</li>
-
-						<li class="playlist__item  playlist__item--even  slide__item"
-							onmouseover="this.className=(this.className+' playlist__item--hover')"
-							onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')"
-							data-disstid="3258119978">
-							<div class="playlist__item_box">
-								<div class="playlist__cover mod_cover">
-									<a
-										href="https://y.qq.com/n/yqq/playlist/3258119978.html#stat=y_new.index.playlist.pic"
-										class="js_playlist" data-stat="y_new.index.playlist.pic"
-										data-disstid="3258119978"><img
-										src="https://p.qpic.cn/music_cover/0XaJ7WwKJXDzVrtkNbdjrRZIBnDDxa0K1N4WUAvrO5ibcmWOlyY9fEA/300?n=1"
-										onerror="this.src='//y.gtimg.cn/mediastyle/global/img/playlist_300.png?max_age=31536000';this.onerror=null;"
-										alt="最强明星阵容：Coachella 2017音乐节名单" class="playlist__pic"><i
-										class="mod_cover__mask"></i><i
-										class="mod_cover__icon_play js_play"
-										data-stat="y_new.index.playlist.play_btn"></i></a>
-								</div>
-								<h4 class="playlist__title">
-									<span class="playlist__title_txt"><a
-										href="https://y.qq.com/n/yqq/playlist/3258119978.html#stat=y_new.index.playlist.name"
-										class="js_playlist" data-stat="y_new.index.playlist.name"
-										data-disstid="3258119978" title="最强明星阵容：Coachella 2017音乐节名单">最强明星阵容：Coachella
-											2017音乐节名单</a></span> <a href="javascript:;"
-										class="btn_operate_menu js_playlist_more"
-										data-stat="y_new.index.playlist.more" data-type="3"
-										data-mid="3258119978"><span class="icon_txt">更多</span></a>
-								</h4>
-
-								<div class="playlist__other">播放量：25.8万</div>
-							</div>
-						</li>
-
 					</ul>
 				</div>
 				<div class="mod_slide_switch js_switch"
@@ -2300,9 +1226,8 @@
 	<div class="mod_index mod_index--mv mod_slide_box" id="mvlist">
 		<div class="section_inner">
 			<div class="index__hd">
-				<h2 class="index__tit" style="color:#000;font-size:40px;">
-					航拍首播
-				</h2>
+				<h2 class="index__tit" style="color: #000; font-size: 40px;">
+					航拍首播</h2>
 				<i class="index__line index__line--left"></i> <i
 					class="index__line index__line--right"></i>
 			</div>
@@ -2832,16 +1757,19 @@
 .event_list__item.p2 {
 	-webkit-transform: translate3d(0px, 0, 0) scale(0.81);
 	transform: translate3d(0px, 0, 0) scale(0.81);
+	z-index: 2;
 }
 
 .event_list__item.p3 {
 	-webkit-transform: translate3d(224px, 0, 0) scale(1);
 	transform: translate3d(224px, 0, 0) scale(1);
+	z-index: 3;
 }
 
 .event_list__item.p4 {
 	-webkit-transform: translate3d(449px, 0, 0) scale(0.81);
 	transform: translate3d(449px, 0, 0) scale(0.81);
+	z-index: 2;
 }
 
 .event_list__item.p5 {
@@ -2869,4 +1797,5 @@
 	transform: translate3d(1568px, 0, 0) scale(0.81);
 }
 </style>
+<script type="text/javascript" src="js/dianjilu.js"></script>
 </html>
