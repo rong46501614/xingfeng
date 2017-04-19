@@ -24,7 +24,8 @@
 <link rel="stylesheet" href="css/style.css">
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
-
+<script type="text/javascript" src="js/unslider.min.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
 </head>
 
 <body class="os_mac">

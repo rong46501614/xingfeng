@@ -65,12 +65,28 @@
 	
 	
 	var j=0;
-	$("#albumlistPreLi").click(function(){
-		$("#albumlist").css("left","-1200px");
-	});
-	
-	$("#albumlistNextLi").click(function(){
+	$(".js_jump").click(function(){
+		var a = $(this).attr("data-p");
+		var b = $(this).attr("data-stat");
+		
+		if(a == "prev"){
+			j++;
+			if(j>3){
+				j=0;
+			}
+			$("#albumlist").css("left",-1200*j);
+		}else if(a == "next"){
+			j--;
+			if(j<0){
+				j=3;
+			}
+			$("#albumlist").css("left",-1200*j);
+		}
+		
 		
 	});
+	
+
+		
 	
 })();
