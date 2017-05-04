@@ -20,7 +20,7 @@ public class RedirectController {
 	@RequestMapping("/getData")
 	@ResponseBody
 	public Map data(HttpServletRequest req) {
-		Map<String,String> map = new HashMap<>();
+		Map<String,String> map = new HashMap<String,String>();
 		map.put("key", "123");
 		return map;
 	}

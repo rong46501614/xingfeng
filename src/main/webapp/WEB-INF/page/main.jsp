@@ -188,7 +188,7 @@
 			</div>
 			<div class="mod_playlist mod_slide">
 				<!-- 偶数加 playlist__item--even -->
-				<ul class="playlist__list slide__list" id="albumlist">
+				<ul class="playlist__list slide__list" id="albumlist" style="left:-1200px">
 					
 					<li class="playlist__item slide__item playlist__item--even"
 						onmouseover="this.className=(this.className+' playlist__item--hover')"
@@ -200,7 +200,7 @@
 							</div>
 							<h4 class="playlist__title">
 								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="js_album" >过节11111</a></span> 
 								<a href="" class="btn_operate_menu js_albumlist_more">
 								<span class="icon_txt">更多</span></a>
 							</h4>
@@ -219,7 +219,7 @@
 							</div>
 							<h4 class="playlist__title">
 								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="js_album" >过节111111111</a></span> 
 								<a href="" class="btn_operate_menu js_albumlist_more">
 								<span class="icon_txt">更多</span></a>
 							</h4>
@@ -238,7 +238,7 @@
 							</div>
 							<h4 class="playlist__title">
 								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="js_album" >过节111111111</a></span> 
 								<a href="" class="btn_operate_menu js_albumlist_more">
 								<span class="icon_txt">更多</span></a>
 							</h4>
@@ -257,162 +257,7 @@
 							</div>
 							<h4 class="playlist__title">
 								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
-								<a href="" class="btn_operate_menu js_albumlist_more">
-								<span class="icon_txt">更多</span></a>
-							</h4>
-							<div class="playlist__author">
-								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
-							</div>
-						</div>
-					</li>
-					
-					
-					<li class="playlist__item slide__item playlist__item--even"
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a href="" class="js_album" >
-								<img src="images/d.jpg" alt="过节" class="playlist__pic"></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
-								<a href="" class="btn_operate_menu js_albumlist_more">
-								<span class="icon_txt">更多</span></a>
-							</h4>
-							<div class="playlist__author">
-								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
-							</div>
-						</div>
-					</li>
-					<li class="playlist__item slide__item playlist__item--even"
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a href="" class="js_album" >
-								<img src="images/c.jpg" alt="过节" class="playlist__pic"></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
-								<a href="" class="btn_operate_menu js_albumlist_more">
-								<span class="icon_txt">更多</span></a>
-							</h4>
-							<div class="playlist__author">
-								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
-							</div>
-						</div>
-					</li>
-					<li class="playlist__item slide__item playlist__item--even"
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a href="" class="js_album" >
-								<img src="images/b.jpg" alt="过节" class="playlist__pic"></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
-								<a href="" class="btn_operate_menu js_albumlist_more">
-								<span class="icon_txt">更多</span></a>
-							</h4>
-							<div class="playlist__author">
-								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
-							</div>
-						</div>
-					</li>
-					<li class="playlist__item slide__item playlist__item--even"
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a href="" class="js_album" >
-								<img src="images/a.jpg" alt="过节" class="playlist__pic"></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
-								<a href="" class="btn_operate_menu js_albumlist_more">
-								<span class="icon_txt">更多</span></a>
-							</h4>
-							<div class="playlist__author">
-								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
-							</div>
-						</div>
-					</li>
-					
-					<li class="playlist__item slide__item playlist__item--even"
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a href="" class="js_album" >
-								<img src="images/a.jpg" alt="过节" class="playlist__pic"></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
-								<a href="" class="btn_operate_menu js_albumlist_more">
-								<span class="icon_txt">更多</span></a>
-							</h4>
-							<div class="playlist__author">
-								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
-							</div>
-						</div>
-					</li>
-					<li class="playlist__item slide__item playlist__item--even"
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a href="" class="js_album" >
-								<img src="images/b.jpg" alt="过节" class="playlist__pic"></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
-								<a href="" class="btn_operate_menu js_albumlist_more">
-								<span class="icon_txt">更多</span></a>
-							</h4>
-							<div class="playlist__author">
-								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
-							</div>
-						</div>
-					</li>
-					<li class="playlist__item slide__item playlist__item--even"
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a href="" class="js_album" >
-								<img src="images/c.jpg" alt="过节" class="playlist__pic"></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
-								<a href="" class="btn_operate_menu js_albumlist_more">
-								<span class="icon_txt">更多</span></a>
-							</h4>
-							<div class="playlist__author">
-								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
-							</div>
-						</div>
-					</li>
-					<li class="playlist__item slide__item playlist__item--even"
-						onmouseover="this.className=(this.className+' playlist__item--hover')"
-						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
-						<div class="playlist__item_box">
-							<div class="playlist__cover mod_cover">
-								<a href="" class="js_album" >
-								<img src="images/d.jpg" alt="过节" class="playlist__pic"></a>
-							</div>
-							<h4 class="playlist__title">
-								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="js_album" >过节1111111</a></span> 
 								<a href="" class="btn_operate_menu js_albumlist_more">
 								<span class="icon_txt">更多</span></a>
 							</h4>
@@ -433,7 +278,7 @@
 							</div>
 							<h4 class="playlist__title">
 								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="js_album" >过节22222222</a></span> 
 								<a href="" class="btn_operate_menu js_albumlist_more">
 								<span class="icon_txt">更多</span></a>
 							</h4>
@@ -452,7 +297,7 @@
 							</div>
 							<h4 class="playlist__title">
 								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="js_album" >过节2222222</a></span> 
 								<a href="" class="btn_operate_menu js_albumlist_more">
 								<span class="icon_txt">更多</span></a>
 							</h4>
@@ -471,7 +316,7 @@
 							</div>
 							<h4 class="playlist__title">
 								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="js_album" >过节22222</a></span> 
 								<a href="" class="btn_operate_menu js_albumlist_more">
 								<span class="icon_txt">更多</span></a>
 							</h4>
@@ -490,7 +335,84 @@
 							</div>
 							<h4 class="playlist__title">
 								<span class="playlist__title_txt">
-								<a href="" class="js_album" >过节</a></span> 
+								<a href="" class="js_album" >过节22222222</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
+							</h4>
+							<div class="playlist__author">
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
+							</div>
+						</div>
+					</li>
+					
+					<li class="playlist__item slide__item playlist__item--even"
+						onmouseover="this.className=(this.className+' playlist__item--hover')"
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
+						<div class="playlist__item_box">
+							<div class="playlist__cover mod_cover">
+								<a href="" class="js_album" >
+								<img src="images/a.jpg" alt="过节" class="playlist__pic"></a>
+							</div>
+							<h4 class="playlist__title">
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节3333333</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
+							</h4>
+							<div class="playlist__author">
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
+							</div>
+						</div>
+					</li>
+					<li class="playlist__item slide__item playlist__item--even"
+						onmouseover="this.className=(this.className+' playlist__item--hover')"
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
+						<div class="playlist__item_box">
+							<div class="playlist__cover mod_cover">
+								<a href="" class="js_album" >
+								<img src="images/b.jpg" alt="过节" class="playlist__pic"></a>
+							</div>
+							<h4 class="playlist__title">
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节333333</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
+							</h4>
+							<div class="playlist__author">
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
+							</div>
+						</div>
+					</li>
+					<li class="playlist__item slide__item playlist__item--even"
+						onmouseover="this.className=(this.className+' playlist__item--hover')"
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
+						<div class="playlist__item_box">
+							<div class="playlist__cover mod_cover">
+								<a href="" class="js_album" >
+								<img src="images/c.jpg" alt="过节" class="playlist__pic"></a>
+							</div>
+							<h4 class="playlist__title">
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节333333333</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
+							</h4>
+							<div class="playlist__author">
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
+							</div>
+						</div>
+					</li>
+					<li class="playlist__item slide__item playlist__item--even"
+						onmouseover="this.className=(this.className+' playlist__item--hover')"
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
+						<div class="playlist__item_box">
+							<div class="playlist__cover mod_cover">
+								<a href="" class="js_album" >
+								<img src="images/d.jpg" alt="过节" class="playlist__pic"></a>
+							</div>
+							<h4 class="playlist__title">
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节33333333</a></span> 
 								<a href="" class="btn_operate_menu js_albumlist_more">
 								<span class="icon_txt">更多</span></a>
 							</h4>
@@ -501,8 +423,159 @@
 					</li>
 					
 					
+					<li class="playlist__item slide__item playlist__item--even"
+						onmouseover="this.className=(this.className+' playlist__item--hover')"
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
+						<div class="playlist__item_box">
+							<div class="playlist__cover mod_cover">
+								<a href="" class="js_album" >
+								<img src="images/d.jpg" alt="过节" class="playlist__pic"></a>
+							</div>
+							<h4 class="playlist__title">
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节44444444</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
+							</h4>
+							<div class="playlist__author">
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
+							</div>
+						</div>
+					</li>
+					<li class="playlist__item slide__item playlist__item--even"
+						onmouseover="this.className=(this.className+' playlist__item--hover')"
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
+						<div class="playlist__item_box">
+							<div class="playlist__cover mod_cover">
+								<a href="" class="js_album" >
+								<img src="images/c.jpg" alt="过节" class="playlist__pic"></a>
+							</div>
+							<h4 class="playlist__title">
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节44444444</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
+							</h4>
+							<div class="playlist__author">
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
+							</div>
+						</div>
+					</li>
+					<li class="playlist__item slide__item playlist__item--even"
+						onmouseover="this.className=(this.className+' playlist__item--hover')"
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
+						<div class="playlist__item_box">
+							<div class="playlist__cover mod_cover">
+								<a href="" class="js_album" >
+								<img src="images/b.jpg" alt="过节" class="playlist__pic"></a>
+							</div>
+							<h4 class="playlist__title">
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节4444444</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
+							</h4>
+							<div class="playlist__author">
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
+							</div>
+						</div>
+					</li>
+					<li class="playlist__item slide__item playlist__item--even"
+						onmouseover="this.className=(this.className+' playlist__item--hover')"
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
+						<div class="playlist__item_box">
+							<div class="playlist__cover mod_cover">
+								<a href="" class="js_album" >
+								<img src="images/a.jpg" alt="过节" class="playlist__pic"></a>
+							</div>
+							<h4 class="playlist__title">
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节444444444</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
+							</h4>
+							<div class="playlist__author">
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
+							</div>
+						</div>
+					</li>
 					
-					
+					<li class="playlist__item slide__item playlist__item--even"
+						onmouseover="this.className=(this.className+' playlist__item--hover')"
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
+						<div class="playlist__item_box">
+							<div class="playlist__cover mod_cover">
+								<a href="" class="js_album" >
+								<img src="images/a.jpg" alt="过节" class="playlist__pic"></a>
+							</div>
+							<h4 class="playlist__title">
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节11111</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
+							</h4>
+							<div class="playlist__author">
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
+							</div>
+						</div>
+					</li>
+					<li class="playlist__item slide__item playlist__item--even"
+						onmouseover="this.className=(this.className+' playlist__item--hover')"
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
+						<div class="playlist__item_box">
+							<div class="playlist__cover mod_cover">
+								<a href="" class="js_album" >
+								<img src="images/b.jpg" alt="过节" class="playlist__pic"></a>
+							</div>
+							<h4 class="playlist__title">
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节111111111</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
+							</h4>
+							<div class="playlist__author">
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
+							</div>
+						</div>
+					</li>
+					<li class="playlist__item slide__item playlist__item--even"
+						onmouseover="this.className=(this.className+' playlist__item--hover')"
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
+						<div class="playlist__item_box">
+							<div class="playlist__cover mod_cover">
+								<a href="" class="js_album" >
+								<img src="images/c.jpg" alt="过节" class="playlist__pic"></a>
+							</div>
+							<h4 class="playlist__title">
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节111111111</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
+							</h4>
+							<div class="playlist__author">
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
+							</div>
+						</div>
+					</li>
+					<li class="playlist__item slide__item playlist__item--even"
+						onmouseover="this.className=(this.className+' playlist__item--hover')"
+						onmouseout="this.className=this.className.replace(/ playlist__item--hover/, '')">
+						<div class="playlist__item_box">
+							<div class="playlist__cover mod_cover">
+								<a href="" class="js_album" >
+								<img src="images/d.jpg" alt="过节" class="playlist__pic"></a>
+							</div>
+							<h4 class="playlist__title">
+								<span class="playlist__title_txt">
+								<a href="" class="js_album" >过节1111111</a></span> 
+								<a href="" class="btn_operate_menu js_albumlist_more">
+								<span class="icon_txt">更多</span></a>
+							</h4>
+							<div class="playlist__author">
+								<a href="" class="js_singer" title="简弘亦">简弘亦</a>
+							</div>
+						</div>
+					</li>
 					
 					
 					

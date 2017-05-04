@@ -64,23 +64,51 @@
 	});
 	
 	
-	var j=0;
+	var j=1;
 	$(".js_jump").click(function(){
 		var a = $(this).attr("data-p");
 		var b = $(this).attr("data-stat");
 		
 		if(a == "prev"){
-			j++;
-			if(j>3){
-				j=0;
-			}
-			$("#albumlist").css("left",-1200*j);
-		}else if(a == "next"){
 			j--;
-			if(j<0){
+			if($("#albumlist").css("left") =="0px"){
 				j=3;
+				$("#albumlist").css("left","-4800px");
 			}
-			$("#albumlist").css("left",-1200*j);
+			var hh = setInterval(function(){
+				var left = $("#albumlist").css("left");
+				left = parseInt(left.replace("px",""));
+				if(left<-1200*j){
+					$("#albumlist").css("left",(left+10)+"px");
+				}else{
+					if(j==0){
+						j=4;
+						$("#albumlist").css("left","-4800px");
+						
+					}
+					clearInterval(hh);
+				}
+			}, 5);
+		}else if(a == "next"){
+			j++;
+			if($("#albumlist").css("left") =="-4800px"){
+				j=1;
+				$("#albumlist").css("left","0px");
+			}
+			var hh = setInterval(function(){
+				var left = $("#albumlist").css("left");
+				left = parseInt(left.replace("px",""));
+				if(left>-1200*j){
+					$("#albumlist").css("left",(left-10)+"px");
+				}else{
+					if(j==4){
+						j=0;
+						$("#albumlist").css("left","0px");
+						
+					}
+					clearInterval(hh);
+				}
+			}, 5);
 		}
 		
 		
