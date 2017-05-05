@@ -79,7 +79,7 @@
 				var left = $("#albumlist").css("left");
 				left = parseInt(left.replace("px",""));
 				if(left<-1200*j){
-					$("#albumlist").css("left",(left+10)+"px");
+					$("#albumlist").css("left",(left+20)+"px");
 				}else{
 					if(j==0){
 						j=4;
@@ -99,7 +99,7 @@
 				var left = $("#albumlist").css("left");
 				left = parseInt(left.replace("px",""));
 				if(left>-1200*j){
-					$("#albumlist").css("left",(left-10)+"px");
+					$("#albumlist").css("left",(left-20)+"px");
 				}else{
 					if(j==4){
 						j=0;
