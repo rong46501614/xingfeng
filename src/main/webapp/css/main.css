@@ -106,8 +106,8 @@ a:focus, button:focus, input:focus {
 }
 
 ::-webkit-scrollbar {
-	width: 10px;
-	height: 10px
+	width: 0px;
+	height: 0px
 }
 
 ::-webkit-scrollbar-track {
@@ -1835,8 +1835,11 @@ body {
 	z-index: 2
 }
 
+.mod_index{
+	background-color: #004364;
+}
 .mod_header {
-	background-color: #fff;
+	background-color: #d2dec0;
 	position: relative;
 	z-index: 4
 }
