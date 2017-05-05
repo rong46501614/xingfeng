@@ -1341,7 +1341,7 @@
 								data-stat="y_new.index.mv.play_btn" data-vid="e0023ldf6b3"
 								data-id="1215366" hidefocus="true"> <img
 								class="mv_list__pic"
-								src="//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000"
+								src="images/1.jpg"
 								data-original="//shp.qpic.cn/qqvideo_ori/0/e0023ldf6b3_360_204/0"
 								onerror="this.src='//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000';this.onerror=null;"
 								alt="18"> <i class="mod_cover__icon_play"></i>
@@ -1377,7 +1377,7 @@
 								data-stat="y_new.index.mv.play_btn" data-vid="s0023g3crzs"
 								data-id="1214266" hidefocus="true"> <img
 								class="mv_list__pic"
-								src="//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000"
+								src="images/2.jpg"
 								data-original="//shp.qpic.cn/qqvideo_ori/0/s0023g3crzs_360_204/0"
 								onerror="this.src='//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000';this.onerror=null;"
 								alt="蓝孩子 (《蓝精灵：寻找神秘村》中国区主题推广曲）"> <i
@@ -1415,7 +1415,7 @@
 								data-stat="y_new.index.mv.play_btn" data-vid="h0023rpm1dh"
 								data-id="1212625" hidefocus="true"> <img
 								class="mv_list__pic"
-								src="//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000"
+								src="images/3.jpg"
 								data-original="//shp.qpic.cn/qqvideo_ori/0/h0023rpm1dh_360_204/0"
 								onerror="this.src='//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000';this.onerror=null;"
 								alt="饿狼传说 (BANG THE WORLD Live)"> <i
@@ -1454,7 +1454,7 @@
 								data-stat="y_new.index.mv.play_btn" data-vid="k0023dm99s7"
 								data-id="1214259" hidefocus="true"> <img
 								class="mv_list__pic"
-								src="//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000"
+								src="images/4.jpg"
 								data-original="//shp.qpic.cn/qqvideo_ori/0/k0023dm99s7_360_204/0"
 								onerror="this.src='//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000';this.onerror=null;"
 								alt="Go go power rangers (《超凡战队》中国大陆地区电影推广曲)"> <i
@@ -1493,7 +1493,7 @@
 								data-stat="y_new.index.mv.play_btn" data-vid="t0023yo5zef"
 								data-id="1214331" hidefocus="true"> <img
 								class="mv_list__pic"
-								src="//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000"
+								src="images/1.jpg"
 								data-original="//shp.qpic.cn/qqvideo_ori/0/t0023yo5zef_360_204/0"
 								onerror="this.src='//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000';this.onerror=null;"
 								alt="慢慢习惯"> <i class="mod_cover__icon_play"></i>
@@ -1529,7 +1529,7 @@
 								data-stat="y_new.index.mv.play_btn" data-vid="k00233vvgmp"
 								data-id="1215317" hidefocus="true"> <img
 								class="mv_list__pic"
-								src="//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000"
+								src="images/2.jpg"
 								data-original="//shp.qpic.cn/qqvideo_ori/0/k00233vvgmp_360_204/0"
 								onerror="this.src='//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000';this.onerror=null;"
 								alt="Run Up"> <i class="mod_cover__icon_play"></i>
@@ -1566,7 +1566,7 @@
 								data-stat="y_new.index.mv.play_btn" data-vid="n0023igllz6"
 								data-id="1214840" hidefocus="true"> <img
 								class="mv_list__pic"
-								src="//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000"
+								src="images/4.jpg"
 								data-original="//shp.qpic.cn/qqvideo_ori/0/n0023igllz6_360_204/0"
 								onerror="this.src='//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000';this.onerror=null;"
 								alt="青云直上"> <i class="mod_cover__icon_play"></i>
@@ -1602,7 +1602,7 @@
 								data-stat="y_new.index.mv.play_btn" data-vid="x0023dtt1b6"
 								data-id="1215395" hidefocus="true"> <img
 								class="mv_list__pic"
-								src="//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000"
+								src="images/2.jpg"
 								data-original="//shp.qpic.cn/qqvideo_ori/0/x0023dtt1b6_360_204/0"
 								onerror="this.src='//y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000';this.onerror=null;"
 								alt="Ja må du leva"> <i class="mod_cover__icon_play"></i>
