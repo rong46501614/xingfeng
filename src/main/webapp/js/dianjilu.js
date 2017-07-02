@@ -51,9 +51,9 @@
 		clearInterval(timer);
 	})
 	$("#focus").mouseleave(function(){
-		timer=setInterval(nextimg,10000);
+		timer=setInterval(nextimg,3000);
 	})
-	timer=setInterval(nextimg,10000);
+	timer=setInterval(nextimg,3000);
 	
 	
 	$("#preLi").click(function(){
@@ -62,6 +62,22 @@
 	$("#nextLi").click(function(){
 		nextimg();
 	});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	var j=1;
@@ -81,7 +97,7 @@
 				if(left<-1200*j){
 					$("#albumlist").css("left",(left+20)+"px");
 				}else{
-					if(j==0){
+					if(j<=0){
 						j=4;
 						$("#albumlist").css("left","-4800px");
 						
@@ -101,7 +117,7 @@
 				if(left>-1200*j){
 					$("#albumlist").css("left",(left-20)+"px");
 				}else{
-					if(j==4){
+					if(j>=4){
 						j=0;
 						$("#albumlist").css("left","0px");
 						
@@ -113,8 +129,53 @@
 		
 		
 	});
-	
-
+	$("#albumlist_box").mouseover(function(){
+		clearInterval(albumlisttimer);
+	})
+	$("#albumlist_box").mouseleave(function(){
+		albumlisttimer=setInterval(function(){
+			j++;
+			if($("#albumlist").css("left") =="-4800px"){
+				j=1;
+				$("#albumlist").css("left","0px");
+			}
+			var hh = setInterval(function(){
+				var left = $("#albumlist").css("left");
+				left = parseInt(left.replace("px",""));
+				if(left>-1200*j){
+					$("#albumlist").css("left",(left-20)+"px");
+				}else{
+					if(j==4){
+						j=0;
+						$("#albumlist").css("left","0px");
+						
+					}
+					clearInterval(hh);
+				}
+			}, 5);
+		},5000);
+	})
+	albumlisttimer=setInterval(function(){
+		j++;
+		if($("#albumlist").css("left") =="-4800px"){
+			j=1;
+			$("#albumlist").css("left","0px");
+		}
+		var hh = setInterval(function(){
+			var left = $("#albumlist").css("left");
+			left = parseInt(left.replace("px",""));
+			if(left>-1200*j){
+				$("#albumlist").css("left",(left-20)+"px");
+			}else{
+				if(j==4){
+					j=0;
+					$("#albumlist").css("left","0px");
+					
+				}
+				clearInterval(hh);
+			}
+		}, 5);
+	},5000);
 		
 	
 })();

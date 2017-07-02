@@ -153,6 +153,7 @@
 	<!-- 首发图片 -->
 	<!-- 首发图片 -->
 	<div class="mod_index mod_index--new mod_slide_box" id="albumlist_box">
+	<div class="shoufa_color">
 		<div class="section_inner">
 
 			<div class="index__hd">
@@ -618,8 +619,10 @@
 			</div>
 		</div>
 	</div>
+	</div>
 	<!-- 精彩推荐 -->
-	<div class="mod_index mod_index--event mod_slide_box" id="focus">
+	<div class="mod_index mod_index--event mod_slide_box focus_box" id="focus">
+		<div class="jingcaituijian_color">
 		<div class="section_inner">
 			<div class="index__hd">
 				<h2 class="index__tit" style="color:#000; font-size: 40px;">
@@ -758,11 +761,12 @@
 				</div>
 			</div>
 	</div>
-	
+	</div>
 	
 	
 	<!-- 图片排行榜 -->
-	<div id="toplist_box">
+	<div class="imgsort" id="toplist_box">
+	<div class="imgsort_color">
 		<div class="mod_index mod_index--top mod_slide_box">
 			<div class="section_inner">
 				<div class="index__hd">
@@ -1117,9 +1121,11 @@
 			</div>
 		</div>
 	</div>
+	</div>
 	
 	<!-- 热门图片 -->
-	<div id="taogelist_box">
+	<div class="taogelist_favor remenimg" id="taogelist_box">
+	<div class="remenimg_color">	
 		<div class="mod_index mod_index--hot mod_slide_box">
 			<div class="section_inner">
 				<div class="index__hd">
@@ -1295,8 +1301,10 @@
 			</div>
 		</div>
 	</div>
+	</div>
 	<!-- 航拍首播 -->
-	<div class="mod_index mod_index--mv mod_slide_box" id="mvlist">
+	<div class="mod_index mod_index--mv mod_slide_box hangpaimg" id="mvlist">
+	<div class="hangpaimg_color">
 		<div class="section_inner">
 			<div class="index__hd">
 				<h2 class="index__tit" style="color: #000; font-size: 40px;">
@@ -1633,6 +1641,7 @@
 				</ul>
 			</div>
 		</div>
+	</div>
 	</div>
 
 	<div class="footer" role="footer">

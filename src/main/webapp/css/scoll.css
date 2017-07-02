@@ -1197,9 +1197,7 @@ supports (-webkit-appearance:none ){ .
 	margin-top: -25px
 }
 
-.mod_index--top {
-	background: #121212 url(../images/bg_index_top2.jpg) 100% 0 no-repeat
-}
+
 
 .mod_index--top .section_inner {
 	height: 830px

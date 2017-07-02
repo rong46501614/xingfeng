@@ -89,6 +89,6 @@
 <!-- 5:以注解的形式管理事务
 <tx:annotation-driven transaction-manager="txManage"/> 
 -->
-
+<import resource="classpath*:spring-camel.xml" />
 
 </beans>

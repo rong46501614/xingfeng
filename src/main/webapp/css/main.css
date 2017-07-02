@@ -1835,9 +1835,54 @@ body {
 	z-index: 2
 }
 
-.mod_index{
-	background-color: #004364;
+.shoufa_color{
+	width:100%;
+	height:100%;
+	background-color: rgba(15,0,250,0.2);
 }
+.jingcaituijian_color{
+	width:100%;
+	height:100%;
+	background-color: rgba(55,120,150,0.2);
+}
+.focus_box{
+	height: 600px;
+	background: #000 url(../images/banner1.jpg) 100% 0 repeat-x;
+}
+.imgsort{
+	height: 830px;
+	background: #000 url(../images/banner2.jpg) 100% 0 repeat-x;
+}
+
+.imgsort_color{
+	width:100%;
+	height:100%;
+	background-color: rgba(225,210,50,0.2);
+}
+.remenimg{
+	height: 758px;
+	background: #000 url(../images/banner4.jpg) 100% 0 repeat-x;
+}
+
+.remenimg_color{
+	width:100%;
+	height:100%;
+	background-color: rgba(255,10,50,0.2);
+}
+.hangpaimg{
+	height: 860px;
+	background: #000 url(../images/banner5.jpg) 20% 0 repeat-x;
+}
+
+.hangpaimg_color{
+	width:100%;
+	height:100%;
+	background-color: rgba(55,10,250,0.2);
+}
+.taogelist_favor{
+	background-color: #ff0080;
+}
+
 .mod_header {
 	background-color: #d2dec0;
 	position: relative;
