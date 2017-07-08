@@ -18,6 +18,7 @@ public class Img {
 
 	public static void getImagePixel(String image) throws Exception {  
         int[] rgb = new int[3];
+		
         File file = new File(image);  
         BufferedImage bi = null;  
         try {  
@@ -27,7 +28,8 @@ public class Img {
         }  
         int width = bi.getWidth();  
         int height = bi.getHeight();  
-        int minx = bi.getMinX();  
+        int minx = bi.getMinX();
+
         int miny = bi.getMinY();  
         System.out.println("width=" + width + ",height=" + height + ".");  
         System.out.println("minx=" + minx + ",miniy=" + miny + "."); 
