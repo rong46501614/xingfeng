@@ -8,11 +8,13 @@ import org.apache.camel.Processor;
 import org.springframework.stereotype.Component;
 
 @Component
-public class FileConvertProcessor implements Processor{  
+public class FileConvertProcessor implements Processor{
+	
     @Override  
     public void process(Exchange exchange) throws Exception {
         Map<String,String> map = new HashMap<String,String>();
         map.put("hello", "world");
+        map.put("xingfeng", "world");
         exchange.getIn().setBody(map);
     }
 }

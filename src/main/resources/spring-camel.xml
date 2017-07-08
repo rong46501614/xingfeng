@@ -14,14 +14,18 @@
 				http://www.springframework.org/schema/context/spring-context-3.0.xsd"
 				default-autowire="byName"  default-init-method="init">
     
-    
+    <context:component-scan base-package="com.test.camel"/>
     <camelContext id="testCamelContext" xmlns="http://camel.apache.org/schema/spring">  
-        <route>
+    	
+        <route id="xingfeng">
             <from uri="restlet:http://localhost:8080/xingfeng?restletMethod=GET"/>
-            <process ref="fileConverter"/>
-			<marshal>
-				<json library="Jackson"/>
-			</marshal>
+            <process ref="fileConvertProcessor"/>
+        </route>
+        
+        
+        <route id="tianxia">
+            <from uri="restlet:http://localhost:8080/tianxia?restletMethod=GET"/>
+            <process ref="tianxiaProcessor"/>
         </route>
     </camelContext>
 </beans>
