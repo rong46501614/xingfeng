@@ -4,6 +4,6 @@
 	<groupId>com.xftx</groupId>
 	<artifactId>configration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 	<name>XingFeng: configration</name>
 </project>
