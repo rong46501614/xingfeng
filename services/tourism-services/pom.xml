@@ -8,4 +8,12 @@
   <artifactId>tourism-services</artifactId>
   <name>XingFeng: tourism-services</name>
   <packaging>jar</packaging>
+  
+  <dependencies>
+		<dependency>
+			<groupId>com.xftx</groupId>
+			<artifactId>common-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 </project>

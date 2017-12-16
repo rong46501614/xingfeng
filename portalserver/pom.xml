@@ -43,6 +43,37 @@
 		</plugins>
 	</build>
 
-	
+	<dependencies>
+		<dependency>
+			<groupId>com.xftx</groupId>
+			<artifactId>common-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xftx</groupId>
+			<artifactId>camel-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xftx</groupId>
+			<artifactId>entertainment-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xftx</groupId>
+			<artifactId>forum-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xftx</groupId>
+			<artifactId>map-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xftx</groupId>
+			<artifactId>tourism-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 
 </project>
