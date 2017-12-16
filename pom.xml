@@ -8,6 +8,7 @@
 	<name>XingFeng: xingfeng</name>
 
 	<modules>
+		<module>parent</module>
 		<module>services</module>
 		<module>portalserver</module>
 	</modules>
