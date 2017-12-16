@@ -1,0 +1,79 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+	    <groupId>com.xftx</groupId>
+		<artifactId>parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>portalserver</artifactId>
+	<name>XingFeng: portalserver</name>
+	<packaging>war</packaging>
+	<build>
+		<plugins>
+		
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<version>3.1</version>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<uriEncoding>UTF-8</uriEncoding>
+					<port>7777</port>
+				</configuration>
+			</plugin>
+			
+			<plugin>  
+			    <groupId>org.apache.maven.plugins</groupId>  
+			    <artifactId>maven-compiler-plugin</artifactId>  
+			    <version>3.5</version>  
+			    <configuration>  
+			        <verbose>true</verbose>  
+			        <fork>true</fork>  
+			        <executable>F:/Java/jdk1.8.0_31/bin/javac</executable>  
+			    </configuration>  
+			</plugin> 
+			
+			
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.xftx</groupId>
+			<artifactId>common-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xftx</groupId>
+			<artifactId>camel-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xftx</groupId>
+			<artifactId>entertainment-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xftx</groupId>
+			<artifactId>forum-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xftx</groupId>
+			<artifactId>map-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xftx</groupId>
+			<artifactId>tourism-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+</project>
