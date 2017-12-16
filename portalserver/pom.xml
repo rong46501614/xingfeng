@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-    <groupId>com.xftx</groupId>
-	<artifactId>xingfeng</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-  </parent>
+	    <groupId>com.xftx</groupId>
+		<artifactId>common-services</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
 	<artifactId>portalserver</artifactId>
 	<name>XingFeng: portalserver</name>
 	<packaging>war</packaging>
