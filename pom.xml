@@ -193,6 +193,10 @@
 	<modules>
 		<module>camel-services</module>
 		<module>common-services</module>
+		<module>entertainment-services</module>
+		<module>forum-services</module>
+		<module>map-services</module>
+		<module>tourism-services</module>
 		<module>portalserver</module>
 	</modules>
 
