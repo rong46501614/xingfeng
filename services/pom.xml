@@ -5,9 +5,9 @@
 	<artifactId>xingfeng</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>common-services</artifactId>
-  <name>XingFeng: common-services</name>
-  <packaging>jar</packaging>
+  <artifactId>services</artifactId>
+  <name>XingFeng: services</name>
+  <packaging>pom</packaging>
   
   <repositories> 
         <repository> 
@@ -191,4 +191,13 @@
 		 	<version>2.0.5</version>
 		</dependency>
 	</dependencies>
+	
+	<modules>
+		<module>common-services</module>
+		<module>camel-services</module>
+		<module>entertainment-services</module>
+		<module>forum-services</module>
+		<module>map-services</module>
+		<module>tourism-services</module>
+	</modules>
 </project>
