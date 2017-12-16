@@ -14,9 +14,6 @@
 				       http://www.springframework.org/schema/aop
 				       http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
-	<context:property-placeholder location="classpath:jdbc.properties" />
-
-
 
 
 <!-- 1:配置注解的自动扫描的范围 
