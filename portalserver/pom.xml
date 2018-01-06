@@ -74,6 +74,11 @@
 			<artifactId>tourism-services</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>com.xftx</groupId>
+			<artifactId>design-pattern-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 </project>

@@ -19,7 +19,7 @@
 			<json id="json" library="Jackson" />
 		</dataFormats>
 		<route id="xingfeng">
-			<from uri="restlet:http://localhost:8080/xingfeng?restletMethod=GET" />
+			<from uri="restlet:http://localhost:8888/xingfeng?restletMethod=GET" />
 			<process ref="fileConvertProcessor" />
 			
 			<marshal ref="json" />
@@ -27,7 +27,7 @@
 
 
 		<route id="tianxia">
-			<from uri="restlet:http://localhost:8080/tianxia?restletMethod=GET" />
+			<from uri="restlet:http://localhost:8888/tianxia?restletMethod=GET" />
 			<process ref="tianxiaProcessor" />
 		</route>
 	</camelContext>
