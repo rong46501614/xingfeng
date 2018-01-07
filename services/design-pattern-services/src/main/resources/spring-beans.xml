@@ -21,4 +21,29 @@
     <context:annotation-config />  
 	<context:component-scan base-package="com.xingfeng.schedule" />
 
+
+	
+	<!-- list config -- match setCronTasksList(List cronTasks) -->
+	<!-- <bean class="org.springframework.scheduling.config.ScheduledTaskRegistrar">  
+		<property name="cronTasksList">
+			<list>
+				<bean class="org.springframework.scheduling.config.CronTask">
+					<constructor-arg ref="helloSchedule"/>  
+					<constructor-arg value="0/5 * * * * *"/>
+				</bean>
+			</list>
+		</property>
+	</bean> -->
+	
+	
+	<!-- map config -- match setCronTasks(Map cronTasks) -->
+	<bean class="org.springframework.scheduling.config.ScheduledTaskRegistrar">  
+		<property name="cronTasks">
+			<map>
+				<entry key-ref="helloSchedule" value="0/5 * * * * *"/>
+			</map>
+		</property>
+	</bean>
+	
+	
 </beans>
