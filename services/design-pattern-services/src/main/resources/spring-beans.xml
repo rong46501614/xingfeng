@@ -23,7 +23,7 @@
 
 
 	
-	<!-- list config -- match setCronTasksList(List cronTasks) -->
+	<!-- list config match setCronTasksList(List cronTasks) -->
 	<!-- <bean class="org.springframework.scheduling.config.ScheduledTaskRegistrar">  
 		<property name="cronTasksList">
 			<list>
@@ -36,7 +36,7 @@
 	</bean> -->
 	
 	
-	<!-- map config -- match setCronTasks(Map cronTasks) -->
+	<!-- map config match setCronTasks(Map cronTasks) -->
 	<bean class="org.springframework.scheduling.config.ScheduledTaskRegistrar">  
 		<property name="cronTasks">
 			<map>
