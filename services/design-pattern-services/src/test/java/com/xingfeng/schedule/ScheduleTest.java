@@ -1,0 +1,17 @@
+package com.xingfeng.schedule;
+
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import junit.framework.TestCase;
+
+@RunWith(SpringJUnit4ClassRunner.class)//表示整合JUnit4进行测试
+@ContextConfiguration(locations={"classpath:spring-beans.xml"})//加载spring配置文件
+public class ScheduleTest extends TestCase {
+
+	public void testSchTest1() {
+		System.out.println("HELLO");
+	}
+
+}
