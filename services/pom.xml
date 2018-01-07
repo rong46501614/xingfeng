@@ -17,5 +17,6 @@
 		<module>forum-services</module>
 		<module>map-services</module>
 		<module>tourism-services</module>
+		<module>design-pattern-services</module>
 	</modules>
 </project>

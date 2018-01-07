@@ -15,19 +15,20 @@
 
 	<context:component-scan base-package="com.xftx.camel" />
 	<camelContext id="testCamelContext" xmlns="http://camel.apache.org/schema/spring">
+	
 		<dataFormats>
 			<json id="json" library="Jackson" />
 		</dataFormats>
+		
 		<route id="xingfeng">
-			<from uri="restlet:http://localhost:8080/xingfeng?restletMethod=GET" />
+			<from uri="restlet:http://localhost:8888/xingfeng?restletMethod=GET" />
 			<process ref="fileConvertProcessor" />
-			
 			<marshal ref="json" />
 		</route>
 
 
 		<route id="tianxia">
-			<from uri="restlet:http://localhost:8080/tianxia?restletMethod=GET" />
+			<from uri="restlet:http://localhost:8888/tianxia?restletMethod=GET" />
 			<process ref="tianxiaProcessor" />
 		</route>
 	</camelContext>
