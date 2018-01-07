@@ -53,7 +53,10 @@
 	<!--contextConfigLocation在 ContextLoaderListener类中的默认值是 /WEB-INF/applicationContext.xml-->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>classpath:spring-beans.xml</param-value>
+		<param-value>
+			classpath*:spring-beans.xml,
+			classpath*:spring-camel.xml
+		</param-value>
 	</context-param>
     
     
