@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Schedule {
 	
-	@Scheduled(cron = "0/5 * * * * ?")
+	@Scheduled(cron = "0 0 0/2 * * ?")
 	public void schTest1() {
 		Date date = new Date();
 		SimpleDateFormat sim = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");

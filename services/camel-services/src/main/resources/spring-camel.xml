@@ -21,20 +21,20 @@
         </restConfiguration> -->
         
         
-		<!-- <route id="xingfeng">
+		<route id="xingfeng">
 			<from uri="restlet:http://localhost:8888/xingfeng?restletMethod=GET" />
 			<process ref="fileConvertProcessor" />
 			<marshal>
-				<json id="json" library="Jackson" />
+				<json library="Jackson" />
 			</marshal>
-		</route> -->
+		</route>
 
 
 		<route id="tianxia">
 			<from uri="restlet:http://localhost:8888/tianxia?restletMethod=GET" />
 			<process ref="tianxiaProcessor" />
 			<marshal>
-				<json id="json" library="Jackson" />
+				<json library="Jackson" />
 			</marshal>
 		</route>
 		

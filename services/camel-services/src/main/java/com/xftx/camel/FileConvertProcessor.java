@@ -37,19 +37,34 @@ public class FileConvertProcessor implements Processor{
     	
     	System.out.println(parameter);
     	
-    	configuration.setParameter("authority", "localhost:9080");
-    	
-    	Object parameters = configuration.getParameter("authority");
-    	
-    	
-    	configuration.getURI();
-    	
-    	System.out.println(parameters);
-    	
         Map<String,String> map = new HashMap<String,String>();
         map.put("hello", "world");
         map.put("xingfeng", "world");
 //        String writeValueAsString = OBJECTMAPPER.writeValueAsString(map);
         exchange.getIn().setBody(map);
+        
+//        temporarilyRedirect(exchange,"localhost:7777/portalserver");
+        //response.sendRedirect("/portalserver");
     }
+    
+    
+    /** 
+     * 永久重定向 
+     * 代表永久性转移(Permanently Moved)。 
+     */  
+    private void permanentlyRedirect(Exchange exchange, String location)  
+    {  
+        exchange.getOut().setHeader(Exchange.HTTP_RESPONSE_CODE, 301);  
+        exchange.getOut().setHeader("Location", location);  
+    }  
+      
+    /** 
+     * 临时重定向 
+     * 代表暂时性转移(Temporarily Moved )。  
+     */  
+    private void temporarilyRedirect(Exchange exchange, String location)  
+    {  
+        exchange.getOut().setHeader(Exchange.HTTP_RESPONSE_CODE, 302);  
+        exchange.getOut().setHeader("Location", location);  
+    }  
 }

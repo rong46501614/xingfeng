@@ -40,7 +40,7 @@
 	<bean class="org.springframework.scheduling.config.ScheduledTaskRegistrar">  
 		<property name="cronTasks">
 			<map>
-				<entry key-ref="helloSchedule" value="0/5 * * * * *"/>
+				<entry key-ref="helloSchedule" value="0 0 0/5 * * *"/>
 			</map>
 		</property>
 	</bean>
