@@ -17,6 +17,11 @@ public class RedirectController {
 	}
 	
 	
+	@RequestMapping("/test")
+	public String fortestjsp() {
+		return "test";
+	}
+	
 	@RequestMapping("/getData")
 	@ResponseBody
 	public Map data(HttpServletRequest req) {
