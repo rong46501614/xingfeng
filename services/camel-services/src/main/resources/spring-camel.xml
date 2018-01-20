@@ -22,7 +22,7 @@
         
         
 		<route id="xingfeng">
-			<from uri="restlet:http://localhost:8888/xingfeng?restletMethod=GET" />
+			<from uri="restlet:http://localhost:9080/xingfeng?restletMethod=GET" />
 			<process ref="fileConvertProcessor" />
 			<marshal>
 				<json library="Jackson" />
@@ -31,7 +31,7 @@
 
 
 		<route id="tianxia">
-			<from uri="restlet:http://localhost:8888/tianxia?restletMethod=GET" />
+			<from uri="restlet:http://localhost:9080/tianxia?restletMethod=GET" />
 			<process ref="tianxiaProcessor" />
 			<marshal>
 				<json library="Jackson" />
