@@ -81,6 +81,7 @@ public class ImgTools {
 					}
 					
 				} catch (Exception e) {
+					value = value -1;
 					continue;
 				}
 			}
